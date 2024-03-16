@@ -1,0 +1,1059 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+            ],
+            "responses": [
+              "Hi, I'm Lumi! How Can I help you today?",
+              "Hello, Lumi here, what can I do for you today?",
+              "Hi, I'm Lumi - Your digital banking assistant. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": [
+              "Thanks for visiting, see you later!",
+              "Have a nice day",
+              "Bye Bye! Come back again soon."
+            ]
+          },
+        {
+            "tag": "spending limit",
+            "patterns": [
+                "Change ATM withdrawal and Visa/Mastercard spending limit"
+            ],
+            "responses": [
+                "OCBC Internet BankingLog in toOCBC Online Bankingwith your access code and PIN or SingpassScroll over  Customer Service   then  Cards services   and select  Manage card daily limit  Select card to change the ATM withdrawal or spending limitSelect the new limit. Tap on the \"Next\" buttonTap on the  Submit   button to confirmOCBC Digital appLog in to OCBC Digital appTap on the menu bar on the top left of the screenTap on  Card services  Select  Manage card daily limit  Select card to change the daily limitSelect the limit amount you prefer for withdrawal and spendingTap on the  Next   buttonTap on the  Confirm   button after reviewing the changesVia other channelsVisit your nearestOCBC branch, or call us (phone banking) at1800 363 3333. If overseas, call+65 6363 3333."
+            ]
+        },
+        {
+            "tag": "online banking, public computer",
+            "patterns": [
+                "Access OCBC Online Banking on a public computer"
+            ],
+            "responses": [
+                "We do not encourage the access of online banking using a public or shared PC as you're more exposed to malicious programs or viruses."
+            ]
+        },
+        {
+            "tag": "activate overseas card usage, deactivate overseas card usage",
+            "patterns": [
+                "Activation/ deactivation of cards for overseas card usage"
+            ],
+            "responses": [
+                "Please refer to theOverseas Usage Guideto find out how to activate or deactivate your card(s) for overseas cash withdrawal or overseas purchases.",
+                "Please refer to theOverseas Usage Guideto find out how to activate or deactivate your card(s) for overseas cash withdrawal or overseas purchases."
+            ]
+        },
+        {
+            "tag": "payee",
+            "patterns": [
+                "Add a non-OCBC account as payee"
+            ],
+            "responses": [
+                "Login to online banking.Tap on  Transfers & Payments  .Tap on  Local  .Tap on  Add new payee  .Select the Bank/Organisation of the payee account.Add the payee account number.Follow the online instructions.You will be asked for a one-time password (OTP) or authorize your request using OCBC OneToken on your mobile phone before you can transfer funds to this account. Please note that it will take at least 12 hours to take effect for adding of new payee account.Please visitwww.ocbc.com/OneTokenfor more information."
+            ]
+        },
+        {
+            "tag": "add payee, delete payee, fund transfer",
+            "patterns": [
+                "Add or delete payee for fund transfer"
+            ],
+            "responses": [
+                "Via OCBC DigitalAdd payeeLog in to OCBC Digital app.Tap on the menu bar on the top left of the screen.Tap on  Transfers & Payments  .Tap on  Payee list  .Tap on  Local and overseas payee  .Tap on  Add payee  .Follow the mobile banking instructions to add payee.Please note that it will take at least 12 hours to effect add payee feature.Delete payeeLog in to OCBC Digital app.Tap on the menu bar on the top left of the screen.Tap on  Transfers & Payments  .Tap on  Payee list  .Tap on  Local and overseas payee  .Tap on the  Delete payee   button.Follow the mobile banking instructions to delete payee."
+            ]
+        },
+        {
+            "tag": "add payee, delete payee, bill payment",
+            "patterns": [
+                "Add payee for bill payment"
+            ],
+            "responses": [
+                "Via OCBC DigitalAdhoc bill payment and/or Add billing organisation:Log in to OCBC Digital app.Tap on the menu bar on the top left of the screen.Tap on  Transfers & Payments  .Tap on \"Bills\".Tap on  Pay new bill  .Select the Billing organisation to pay.Enter the  Bill reference number   and click on  Next  .Enter One-Time Password*.Choose the account to pay the bill from, date of payment, amount to pay and click on  Next  .Review your details and tap on  Slide to pay   to complete the bill payment.*If you have activated OCBC OneToken, you'll not be required to perform this step as authentication is done seamlessly in the background.Please visitwww.ocbc.com/OneTokenfor more information."
+            ]
+        },
+        {
+            "tag": "add payee, delete payee, overseas fund transfer",
+            "patterns": [
+                "Adding new payee for overseas funds transfer"
+            ],
+            "responses": [
+                "Viewstep by step guideto add new payee via OCBC Mobile Banking app.Viewstep by step guideto add new payee via OCBC Internet Banking.Alternatively, you can follow these steps below:To add a new payee or beneficiary,Login towww.ocbc.com/loginwith your Access Code and PIN.At the top menu, select Payment & transfer > Transfer funds > Make a transfer > to a bank account overseas (including overseas OCBC accounts)Under  Select one destination account  , select  Add account  .If you know the Swift code of the beneficiary bank account, select  I know the Swift code. Let me process by entering the swift code.   and fill in the Swift code in the field below.If you do not know the Swift code, select  I don't know the Swift code. Help me search for the Beneficiary Bank I am transferring to.   and use the country selectors to select the bank you are paying to.If you do not find the branch or swift code of your desired branch, here's how you can find the Swift code.How to find SWIFT code:Ask your payee for his/her bank's SWIFT codeVisit Google.com and search using \"SWIFT code\"Visit sources such ashttps://www.theswiftcodes.comorwww.bankswiftcode.organd search for the payee's country and name of the bank.Please note that the SWIFT code for some branches may differ due to the location of the branch and this will not affect your transfer.Note: If the swift code is 8 characters, please add XXX behind it to make it 11 characters.Add intermediary bank details (optional) if you have them.Fill in the account details for the beneficiary bank and select  Next  .Authorise with OneToken or your OTP and select  Submit  .Your beneficiary account has been set up and you can proceed to remit funds to this account."
+            ]
+        },
+        {
+            "tag": "non banking, financial institutions",
+            "patterns": [
+                "Addition of non-bank financial institutions (NFIs)"
+            ],
+            "responses": [
+                "From 8 February 2021, you can also transfer money via FAST between bank accounts and the following NFIs' e-Wallets:GrabLiquid PayMatchMove PayRazer Pay (30 April 2021)Singtel DashTransferWiseThe transaction limits are subject to the e-Wallets' limits. Please approach the respective NFIs to learn more."
+            ]
+        },
+        {
+            "tag": "2fa, security",
+            "patterns": [
+                "Additional security with 2FA"
+            ],
+            "responses": [
+                "2-Factor Authentication (2FA) is a security measure that provides greater peace of mind when you bank online, you can choose to log in using SMS or Hardware token. If you have activated OCBC OneToken, you will not be required to enter OTPs as authentications will take place seamlessly in the background. For OCBC Online Banking, you will need to click \"Accept\" on One Token push notification sent to your mobile device to authenticate your transaction.More about 2FA."
+            ]
+        },
+        {
+            "tag": "policy, add rider, remove rider",
+            "patterns": [
+                "After I have bought the policy, can I still add or remove the rider for 3 times of diagnoses?"
+            ],
+            "responses": [
+                "If no claim has been made, you can add or remove the rider. The rider is subject to medical and financial underwriting. Please reach out to the Great Eastern customer hotline."
+            ]
+        },
+        {
+            "tag": "fast",
+            "patterns": [
+                "All about FAST"
+            ],
+            "responses": [
+                "Fast And Secure Transfers (FAST) allows you to transfer money locally in an instant! Visitocbc.com/FASTfor more information.Read the press release and fact sheet for FAST.Find out thelist of FAST participating banks and organisations."
+            ]
+        },
+        {
+            "tag": "receive note, receive coin, cash cheque, atm",
+            "patterns": [
+                "Am I able to receive notes and coins from the cash cheque via any new ATM?"
+            ],
+            "responses": [
+                "Yes, you will receive notes of your preferred denomination and coins rounded up to the nearest cents."
+            ]
+        },
+        {
+            "tag": "apply, digital banking",
+            "patterns": [
+                "Apply for Digital Banking"
+            ],
+            "responses": [
+                "Check out our step-by-step guide toapply for OCBC Digital Bankingwith your phone or other devicesVia OCBC Digital BankingGo toocbc.com/ApplyNowFill in the details and submit the online formYou will get instant access to OCBC Digital Banking.By mailDownload or collect and complete theonline banking application formfrom our branches.Mail it to:Oversea-Chinese Banking Corporation LtdAccount ServicesBras Basah Post OfficeLocked Bag Service No. 8Singapore 911886At any of our branchesVisit any of our branches, apply for OCBC Digital Banking and you can get your Access Code and PIN instantly. Start accessing\u00a0OCBC Digital Banking immediately."
+            ]
+        },
+        {
+            "tag": "ipo",
+            "patterns": [
+                "Apply for IPO"
+            ],
+            "responses": [
+                "Login to online bankingSelect  Investment & trading    and click  Initial public offering   (IPO)The list of current IPO available will be shown. If there are no IPO at that moment, a notice will be shown to you.Follow the online instructions"
+            ]
+        },
+        {
+            "tag": "phone banking",
+            "patterns": [
+                "Apply for Phone Banking"
+            ],
+            "responses": [
+                "Mail-in application:Download the formor collect it from our branches.Mail completed form back to the following address:Oversea-Chinese Banking Corporation LtdAccount Services (eBanking)Bras Basah Post OfficeLocked Bag Service No. 8Singapore 911886At a branch:You can select your Telephone PIN on the spot (applicable during account opening).You can then start to access phone-in banking by calling 1800 363 3333 or (65) 6363 3333 when calling from overseas."
+            ]
+        },
+        {
+            "tag": "electronic securities application",
+            "patterns": [
+                "Apply for Securities via Electronic Securities Application (ESA) using both cash and CPF"
+            ],
+            "responses": [
+                "You can do so at an ATM and OCBC Online Banking (not available on OCBC Digital app).Via OCBC Online BankingGo tohttps://www.ocbc.com/login.Under  Investment and Insurance  , select  Electronic Securities Application  .Via ATMSelect \"More Services\".Select \"Investment Services\".Select \"Electronic Security Application\".Select the counter you wish to apply for."
+            ]
+        },
+        {
+            "tag": "travel insurance",
+            "patterns": [
+                "Apply for Travel Insurance"
+            ],
+            "responses": [
+                "Via Online BankingYou need to have an existing account (deposit or credit/debit card).Login to Online BankingClick on Investments and insurance on the menu, and select Buy insurance.Click on buy now under Explorer Travel Insurance.Fill in your travel details and select the insurance plan you wish to purchase.Your personal details will be pre-populated. If you are buying for other travellers, you will need to fill in their particulars.Confirm that all information provided is correct and click on proceed to payment.Select the account you wish to pay your premium from, and click on next.Confirm the payment details, and click on submit.Upon successful submission, your application of insurance is completed and you will receive your policy documents in the email address you have provided.Via OCBC DigitalLaunch the OCBC Digital appLog in to the app.Tap on\u00a0the menu bar on the top left of the screen.Tap on \"Apply\".Select\u00a0\"Apply for Travel insurance.\"Fill in your travel details and select the plans you wish to purchase.Fill in traveler's personal details.Select your account or card for payment.Upon successful submission, your application of insurance is completed and you will receive your policy documents in the email address you have provided."
+            ]
+        },
+        {
+            "tag": "dynamic currency conversion",
+            "patterns": [
+                "Are ATM Dynamic Currency Conversion (DCC) transactions available on all OCBC ATMs in Singapore?"
+            ],
+            "responses": [
+                "ATM Dynamic Currency Conversion (DCC) service is available on all OCBC ATMs in Singapore except OCBC New ATM & OCBC Service Kiosk."
+            ]
+        },
+        {
+            "tag": "autowise, auto wise",
+            "patterns": [
+                "Are all private motor vehicles eligible to apply for AutoWise?"
+            ],
+            "responses": [
+                "Normally, all private motor vehicles are eligible. However, there may be instances where we may need to underwrite the vehicle on a special basis due to make and model, engine capacity, special modifications and claims history."
+            ]
+        },
+        {
+            "tag": "policy, benefits, guaranteed, non-guaranteed",
+            "patterns": [
+                "Are my benefits/returns guaranteed?"
+            ],
+            "responses": [
+                "The illustrated benefits are made up of guaranteed and non-guaranteed benefits.Guaranteed benefitsCapital is guaranteed from the end of the 10th policy year for single premium payment option, 15th policy year for regular premium (5-year and 10-year) payment options, and 20th policy year for regular premium (15-year) payment option, if no policy alterations are made.Premium payment termCapital guaranteed at the end of policy yearSingle Premium105 years or 10 years1515 years20Non-guaranteed benefitsEvery year, the bonus returns from the participating fund will be declared. Only bonuses that have been declared are guaranteed. Non-guaranteed benefits are in the form of future bonuses and depend on the current performance, the future outlook and the financial soundness of the participating fund.The non-guaranteed benefits (based on bonuses to be declared) depend on factors including:Actual investment returns of the participating fundActual expenses incurred or allocated to the participating fundThe number of surrendered policies in the participating fundThe amount of death and sickness claims paid out on policies in the participating fund.The two Illustrated Investment Rates of Return of 4.25% per year and 3.00% per year used to illustrate the benefits are used purely as examples. They do not represent the upper and lower limits of the investment performance of the participating fund.The bonuses may be smoothed to provide a stable medium to long-term return. Bonuses made during the good years may be used to support the bonuses during down times.Please note that past performance may not be indicative of future performance."
+            ]
+        },
+        {
+            "tag": "fee, srs account",
+            "patterns": [
+                "Are there any fees and charges for my OCBC SRS Account?"
+            ],
+            "responses": [
+                "There will be a S$2 transaction fee for each application or redemption for Singapore Savings Bonds."
+            ]
+        },
+        {
+            "tag": "fee, qr cash withdrawal",
+            "patterns": [
+                "Are there any fees for using the QR Cash Withdrawal service?"
+            ],
+            "responses": [
+                "There is no service fee for using the QR Cash Withdrawal service."
+            ]
+        },
+        {
+            "tag": "fee, ocbc cash cheques",
+            "patterns": [
+                "Are there any fees incurred to cash OCBC Cheques via the new ATM?"
+            ],
+            "responses": [
+                "This service is free of charge. If the cheque is returned due to insufficient funds, the cheque return fee will be waived for now until further notice."
+            ]
+        },
+        {
+            "tag": "fee, srs",
+            "patterns": [
+                "Are there any fees or charges imposed for (i) the transfer of my SRS Account from OCBC to another bank; or (ii) for the withdrawal of shares from my SRS Account?"
+            ],
+            "responses": [
+                "Yes - if you (i) transfer your SRS Account from OCBC to another bank and the transfer involves shares; (ii) withdraw shares from your SRS Account, the following fees and charges are applicable:a CDP settlement fee of S$0.35 per countershare transfer charge of S$10 per counter (applicable for share-related transactions).These charges are subject to the prevailing Goods and Services Tax (GST) rate."
+            ]
+        },
+        {
+            "tag": "penalty, cancelling policy",
+            "patterns": [
+                "Are there any penalties for cancelling my policy?"
+            ],
+            "responses": [
+                "This plan has a 14-day free-look period. If you cancel your policy within 14 days of receiving your policy documents, we will refund you the premiums you have paid, less any costs incurred (if any).If you cancel after the free-look period, there will be no refund of premiums paid."
+            ]
+        },
+        {
+            "tag": "conversion rate, forex fee, conversion fee",
+            "patterns": [
+                "Are there fees associated with using the service?"
+            ],
+            "responses": [
+                "No. Apart from the conversion rate applied, you will not incur additional fees from using the service.",
+                "No. You will be paying the SGD equivalent based on the exchange rate provided, and will not incur additional fees from using the service."
+            ]
+        },
+        {
+            "tag": "atm dynamic currency conversion",
+            "patterns": [
+                "Are there other types of card applicable for ATM Dynamic Currency Conversion (DCC) service e.g. VISA, AMEX?"
+            ],
+            "responses": [
+                "No, ATM Dynamic Currency Conversion (DCC) service is currently only available to foreign MasterCard cardholders."
+            ]
+        },
+        {
+            "tag": "annual fee, annual fee waiver",
+            "patterns": [
+                "Automatic Annual Fee Waiver"
+            ],
+            "responses": [
+                "No card annual fee will be charged for the first 1 or 2 years, depending on the OCBC Card issued to you. After this, just meet the minimum spending for 1 year - starting from the month after your card was issued - to earn an annual fee waiver for your OCBC Card.What counts towards the minimum amount you must spend:Retail transactions, monthly Instalment Payment Plans and monthly PayLite instalments, so long as the amount is shown in your statement during the year.What does not count towards the minimum amount you must spend:Cash-On-Instalments, cash advances and bank charges\u00a0and any refunded amounts.OCBC cardAnnual Service FeeFee waiver period (after card is issued)Minimum spending required to have your Annual Service Fee automatically waivedOCBC Rewards CardS$196.202 yearsS$10,000OCBC Titanium Credit CardS$196.202 yearsS$10,000OCBC 365 Credit CardS$196.202 yearsS$10,000OCBC NXT Credit CardS$163.502 yearsS$10,000OCBC Great Eastern Cashflo Credit CardS$163.502 yearsS$5,000FRANK Credit CardS$196.202 yearsS$10,000OCBC Arts Credit CardS$163.502 yearsS$10,000BEST-OCBC Credit CardS$163.502 yearsS$5,000OCBC Platinum Credit CardS$163.502 yearsS$10,000OCBC INFINITY Cashback CardS$196.201 yearS$10,000OCBC 90\u00b0N MastercardS$196.201 yearS$10,000OCBC 90\u00b0N Visa CardS$196.201 yearS$10,000OCBC Debit CardS$20.00Waived perpetually if your card application was approved on or after 1 November 2012S$1,800 if your card application was approved before 1 November 2012FRANK Debit CardFreeN.A.N.A.We have not included the minimum spending required to have the Annual Service Fee automatically waived for the following cards: OCBC VOYAGE, OCBC Premier VOYAGE and Bank of Singapore VOYAGE Credit Card. For details, please call+65 6438 6088or contact your Relationship Manager."
+            ]
+        },
+        {
+            "tag": "billing organisations",
+            "patterns": [
+                "Billing Organisations"
+            ],
+            "responses": [
+                "Government, Statutory Boards and Taxes:HDB - Housing Loan InstalmentHDB - Residential RentHDB - Late Payment Charges (Housing Loan)HDB - Late Payment Charges (Residential Rent)HDB - Commercial Rent & ChargesIRAS - Income TaxIRAS - Property TaxIRAS - Other TaxesJTC Corporation#MOE Post Secondary Education Account (PSEA) Contribution*#Utilities and Telecommunications:Geneco - Seraya EnergyM1 LimitedNexwave Telecoms Pte Ltd (formerly known as ST SunPage)Singapore TelecomSP GroupStarHub Ltd#Town Councils:Aljunied-Hougang Town CouncilAng Mo Kio Town CouncilBishan-Toa Payoh Town CouncilChua Chu Kang Town CouncilEast Coast-Fengshan Town CouncilHolland-Bukit Panjang Town CouncilJalan Besar Town CouncilJurong-Clementi Town CouncilMarine Parade Town CouncilMarsiling-Yew Tee Town CouncilNee Soon Town CouncilPasir Ris - Punggol Town CouncilSembawang Town CouncilSengkang Town CouncilTampines Town CouncilTanjong Pagar Town CouncilWest Coast Town CouncilFinancial Institutions:ICICI Bank LtdiFAST Financial Pte LtdOCBC Car FinancingCredit Cards:American Express International Inc.Diners Club (S) Pte LtdOCBC Credit Card#OCBC CardDepartmental Stores and Retail Services:Courts (Singapore) LtdIsetan (S) LimitedOther Service Providers:BOS Centre Car ParkBukit Batok Driving Centre LtdMetro Parking (S) Pte LtdOCBC OTC Car ParkCountry Clubs and Societies:Chinese Swimming ClubNational Service Resort & Country ClubNational University of Singapore SocietyOrchid Country ClubSAFRA National Service AssociationSingapore Cricket ClubSoka Gakkai SingaporeSingapore Island Country ClubSingapore Swimming ClubThe American ClubThe Law Society of SingaporeSecurities Firms:CGS-CIMB Securities (Singapore) Pte LtdKGI Securities (Singapore) Pte LtdLim & Tan Securities Pte LtdMaybank Securities Pte LtdOCBC Securities Pte LtdOCBC Securities Pte Ltd - Forex & FuturesOCBC-ESPP (For OCBC staff)OCBC-SOS (For OCBC staff)Phillip Securities Pte LtdEducation:Anglo-Chinese School (Independent)Insurance:American International Assurance Co LtdGreat Eastern General InsuranceGreat Eastern Life Assurance(10 Digit)Great Eastern Life Assurance(8 Digit)Income Insurance LimitedTokio Marine Life Insurance (Singapore) Ltd* Default Bill Payee Organisations# The following billing organizations are only available on the channels specified:MOE PSEA Contribution is only available on ATM / ATM PlusStarHub Ltd is only available on Online Banking, Digital App and Phone BankingOCBC Credit Cards are available on ATM, Online Banking, Digital App and  Phone BankingICICI Bank Ltd is only available on Online Banking and Digital AppJTC Corporation is only available on Online Banking and Velocity"
+            ]
+        },
+        {
+            "tag": "airport transfer",
+            "patterns": [
+                "Can I accumulate my spend over a few months in order to qualify for the complimentary Airport Transfer Service?"
+            ],
+            "responses": [
+                "2 x complimentary Airport Transfer Service can be earned with a min. spend of S$12,000 local or foreign spends within a given quarter. For example, accumulated S$12,000 eligible spent on the VOYAGE Card from April - June 2024 will entitle the Cardmember to 2 x complimentary service in June 2024. (Complimentary Airport Transfer Service is capped at 2 transfers per quarter with a min. spend of S$12,000 eligible spends). The Cardmember can use this service only when the accumulation amount is met. Cardmember will also earn the 2 x complimentary Airport Transfer Service in the middle of a quarter should minimum spends be met. For example, cardmember accumulated S$12,000 eligible spent on the VOYAGE Card from April - May 2024, 2 x complimentary Airport Transfer Service will be credited in May 2024. Any redemption made below the complimentary Airport Transfer Service balance will result in a charge of S$60 to your VOYAGE Card per transfer.How will I be notified of my Complimentary Travel benefits?Spend consolidation will occur at month's end and will be computed to generate the entitlement. Crediting will also be reflected in the cardmember's statement.Why is your limousine entitlement data not updated?The entitlement data will be updated in the middle of every month.How can I book for my complimentary Airport Transfer Service?You can book for your service through theOCBC Digital App > Rewardsat least 48 hours in advance before the required time of arrival at the airport.What is the vehicle used for the Airport Transfer?The default vehicle used for the Service will be a 4-seater Sedan, 7-seater MPV. There will not be any additional charge or VOYAGE Miles deducted from the Cardmember's Card Account.How many Airport lounges are available?Only Main Cardmembers will have unlimited access to over 1,200 DragonPass airport lounges around the world.Can the Supplementary cardmember utilise the lounge?No, the lounge access is only available for the Main Cardmember.My VOYAGE card was recently approved, and I just got the physical card yesterday. Can I use my card to access the lounges immediately?No. For accounts opened from 1st to 15th, the membership details will be sent via email between 22nd to 25th of the same month. For accounts opened between 16th to 31st, the membership details will be sent via email between 7th to 10th of the following month.Do I need to register in the DragonPass Program?Yes. Once you receive the SMS/email with the 16-digit membership no. and 4-digit Activation Code, you will need to tap on 'Activate Membership' in the opening screen of the DragonPass app and follow the instructions.How can I find a participating airport lounge in my location?Each lounge page on the app and website has directions on how to find it. Select your airport location using the search field at the top of the app's home page. When you click on the lounge icon you will see a list of the lounges available in that location.How can I access the lounge?Present your digital membership card on the DragonPass mobile app to the lounge staff. You will also need to present your travel documents (passport and boarding pass) to validate your identity. They will then verify that you have sufficient visits and allow you to access the lounge.Can I bring a guest along with me?The complimentary lounge visits are to be used by the main cardmember only. Each guest visit will be charged at USD$32.Does a DragonPass membership guarantee lounge access?Lounge access is subject to availability on the day of travel. There are often multiple lounges available in the airports so if one is unavailable, you can normally get access to another lounge. You can check what lounges we have available in the airport in the DragonPass app. There are also airport dining discounts in most airport locations which is an alternative option too.Are there any time limits on how long I can be in the lounge?The maximum staying time of each lounge will vary. Please refer to the conditions of your chosen lounge in the mobile app for more information.Can I share my DragonPass membership with others?The DragonPass membership is non-transferable and the named membership holder must always be present.Can I transfer lounge visits?Lounge visits are not transferable between memberships and can only be used within the membership they were received from.What happens if there is a problem upon entry not recognised?In the event of any issues at the point of entry, you can contact OCBC at6438 6088.What can I do if I don't have a lounge at the airport I'm visiting?There are various other benefits, such as dining discounts, that can be utilised if there is not a lounge in your selected airport. Please refer to your app or the website for what restaurants are available at your chosen airport."
+            ]
+        },
+        {
+            "tag": "autowise, insure, commercial vehicle",
+            "patterns": [
+                "Can I apply AutoWise to insure my commercial vehicle?"
+            ],
+            "responses": [
+                "No, AutoWise is only applicable to private motor vehicles."
+            ]
+        },
+        {
+            "tag": "qr cash withdrawal",
+            "patterns": [
+                "Can I ask the Digital Ambassador to help me withdraw more than S$1,000 with QR Cash Withdrawal service?"
+            ],
+            "responses": [
+                "Our Digital Ambassador is unable to help you as the daily limit for QR Cash Withdrawal service is capped at S$1,000."
+            ]
+        },
+        {
+            "tag": "cashier order",
+            "patterns": [
+                "Can I cash Cashier Orders issued by OCBC, CPF Board Support Scheme?"
+            ],
+            "responses": [
+                "These cheques currently cannot be encashed via the new ATMs. You may proceed to the teller counter or bank it into an account."
+            ]
+        },
+        {
+            "tag": "qr cash withdrawal limit",
+            "patterns": [
+                "Can I change the QR cash withdrawal limit?"
+            ],
+            "responses": [
+                "No, you will not be able to change the QR cash withdrawal daily limit of S$1,000."
+            ]
+        },
+        {
+            "tag": "notes denomination, qr cash withdrawal",
+            "patterns": [
+                "Can I choose the notes denomination for QR Cash Withdrawal at the OCBC New ATM?"
+            ],
+            "responses": [
+                "You are unable to select the notes denomination. This fuss-free service allows you to withdraw cash quickly.If you wish to select your preferred notes denomination, you may do so with your ATM card and PIN at any OCBC New ATM."
+            ]
+        },
+        {
+            "tag": "property loan",
+            "patterns": [
+                "Can I choose to retain my property loan referencing SIBOR, and not switch out of it?"
+            ],
+            "responses": [
+                "As SIBOR will be discontinued after 31 December 2024, you are strongly encouraged to contact us early to explore the available options:Option 1: Any prevailing property loan package offered by usOption 2: SORA Conversion Package (SCP) at the spot-spreadOption 3: Wait for automatic conversion to the SCP in June 2024 at the historical median spreadIf you do not switch out your SIBOR-based property loan to an alternative loan package by 30 April 2024, we will automatically convert it to the SCP at the historical median spread in June 2024, 6 months ahead of the discontinuation of SIBOR (i.e. Option 3). This is to allow time for an orderly transition out of SIBOR loans by banks and customers and to ensure that all outstanding SIBOR loans are converted before SIBOR is discontinued."
+            ]
+        },
+        {
+            "tag": "policy, insurance, refund",
+            "patterns": [
+                "Can I get a refund if I cancel?"
+            ],
+            "responses": [
+                "You will only get your money back in full if you cancel the plan within the 14-day free-look period starting from the day you receive your policy documents.You will be notified via SMS and email when the policy document is ready.How do I make a claim?Please followthese stepsto file a claim.Can I get a refund if I did not make a claim?No, you will not get any refund if you don't make a claim. This helps us to make this plan more affordable.What are the circumstances that I cannot make a claim?You cannot make a claim if the diagnosis was made within the first 90 days from the policy issue date or the date of reinstatement of the policy.If the claim is caused by pre-existing conditions,alcohol or drug abuse, or any congenital anomaly or defect, the claim is not payable."
+            ]
+        },
+        {
+            "tag": "insure, loss, ncd",
+            "patterns": [
+                "Can I insure against the loss of my NCD?"
+            ],
+            "responses": [
+                "Yes, as long as you have NCD of 50%. This is an optional benefit called  NCD Protector   with an additional premium to be paid. The benefit will protect your NCD against the first claim during the Period of Insurance. However, your NCD will be affected if you have more than one claim during the Period of Insurance. Please refer to the table below:No. of Claim(s) made during the Period of InsuranceNCD entitlement upon renewal of the PolicyOneS$50%Two20%Three or moreNo discountPlease note that this NCD Protector is not transferable to another insurer and does not guarantee renewal or non-cancellation of your policy by the company."
+            ]
+        },
+        {
+            "tag": "srs",
+            "patterns": [
+                "Can I invest with my SRS Contributions?"
+            ],
+            "responses": [
+                "A wide range of financial instruments are available for your investments. These include stocks, unit trusts, time deposits, annuities, fund management accounts and life insurance policies (single premium and recurrent single premium products only).However, direct property investments, life insurance policies greater than 3 times the single premium, critical illness, health and long-term care products are not allowed."
+            ]
+        },
+        {
+            "tag": "old atm, access accounts",
+            "patterns": [
+                "Can I keep my old ATM card to access my account?"
+            ],
+            "responses": [
+                "As part of our security measures, you will not be able to use your old ATM card to access your account after 30 days from the date of this letter. If you wish to receive a replacement ATM card, please complete the enclosed form and mail it back to us. Alternatively, you can also visit any of our branches."
+            ]
+        },
+        {
+            "tag": "critical illness",
+            "patterns": [
+                "Can I make a critical illness claim starting from day 1?"
+            ],
+            "responses": [
+                "Yes, you can do so in the case of a stroke. However, for cancer or a heart attack, there is a waiting period of 90 days before you can make a claim."
+            ]
+        },
+        {
+            "tag": "policy, partial surrender",
+            "patterns": [
+                "Can I make a partial surrender if I need the cash proceeds for my personal use during the policy term?"
+            ],
+            "responses": [
+                "Yes, provided there is cash value in your policy. Note that if you make a partial surrender, it will reduce the basic sum assured which may affect the amount of future bonuses payable (if any) under the policy. The policy will terminate upon full surrender of the policy. Terms and conditions apply."
+            ]
+        },
+        {
+            "tag": "360 account",
+            "patterns": [
+                "Can I open more than one 360 Account?"
+            ],
+            "responses": [
+                "Each customer is only allowed to open one 360 Account where he/she is the Primary Account holder. The signing mandate can be either signed singly or joint alternate."
+            ]
+        },
+        {
+            "tag": "open robo invest",
+            "patterns": [
+                "Can I open multiple RoboInvest account?"
+            ],
+            "responses": [
+                "For security reasons, we are only allowing 1 account per person. However, you can have multiple portfolios under your account.I do not live in Singapore, can I open a RoboInvest account?Yes, you can as long as you meet the eligibility criteria.What are these new terms on my new dashboard?Net invested: Cost value of your remaining investments including dividend gains after accounting for withdrawals and AUM fees (0.88% p.a.) charged monthly on your portfolio holdings.Estimated market value: The estimated market value of your investments as of the date reflected in the dashboardUnrealised profit / loss: The potential profit or loss in the value of your investments based on your initial investment value"
+            ]
+        },
+        {
+            "tag": "pay through srs",
+            "patterns": [
+                "Can I pay through my Supplementary Retirement Scheme (SRS) account?"
+            ],
+            "responses": [
+                "Yes, SRS payment is allowed for Single Premium mode only, with a minimum single premium of S$15,000. Note that the minimum entry age for SRS payment is 19 years old (age next birthday)."
+            ]
+        },
+        {
+            "tag": "great life, endowment",
+            "patterns": [
+                "Can I purchase GREATLife Endowment Insurance 3 if I have pre-existing health conditions?"
+            ],
+            "responses": [
+                "Yes, you can. However, if the life assured passes away due to a pre-existing condition within 12 months from the date the policy was issued, the policy will be void and all the premiums paid (less any debt, benefits and/or bonuses paid under the policy) will be refunded. Payment of Terminal Illness (TI) benefit or Total and Permanent Disability (TPD) benefit will not be made if the life assured has pre-existing TI or pre-existing TPD, or pre-existing conditions that lead to a TI or TPD event within 12 months from the date the policy was issued."
+            ]
+        },
+        {
+            "tag": "renew time deposit",
+            "patterns": [
+                "Can I renew my maturing Time Deposit at prevailing promotion rates?"
+            ],
+            "responses": [
+                "Yes, you can submit a request via OCBC Mobile Banking to renew your upcoming maturing Time Deposit at prevailing promotion rates.If the tenure of my existing Time Deposit does not have a promotion rate, can I submit the request?No, you will not be able to renew at promotion rate if you do not have an existing Time Deposit the tenure offered under the promotion. Alternatively, you can make a New Placement to enjoy the promotion rate.If the amount of my existing Time Deposit does not meet the minimum deposit amount requirement for promotion rate, can I submit the request?No, you will not be able to renew at promotion rate if your existing Time Deposit is less than the minimum amount required for the promotion. Alternatively, you can make a New Placement to enjoy the promotion rate.When can I start submitting the request?You can submit the request between 2 to 5 business days before the maturity date of your eligible Time Deposit.When will the promotion rate be applied to my existing Time Deposit?The promotion rate will be applied to your existing Time Deposit effective from its original maturity date.How can I enjoy the promotion rate if I don't have an upcoming maturity Time Deposit?You can make a New Placement to enjoy the promotion rate.I have an upcoming maturing Time Deposit, but I do not see the  Renew at promotion rate   option on OCBC Mobile Banking, what should I do?This may mean that there is no promotion rate at the moment, or your Time Deposit is not eligible. You may visit any OCBC Bank branch or submit a form on OCBC Internet Banking for more assistance.Foreign Currency Time DepositThere is no promotion rate at the moment. Visit ourForeign Currency Time Deposit board rate pagefor more information."
+            ]
+        },
+        {
+            "tag": "lost hardware token",
+            "patterns": [
+                "Can I replace my hardware token if I lose mine?"
+            ],
+            "responses": [
+                "You can get another hardware token by visiting any OCBC branch. Alternatively, email us - via OCBC Internet Banking (Log in > Mailbox) or the OCBC Digital app (Log in > Menu > Secured Mailbox) - to request a replacement. Your email should include the following details:Why the token needs replacing (e.g. it is out of battery, damaged or lost)Where we should mail the token to (if you have multiple mailing addresses in our records)For greater convenience, consider switching to OCBC OneToken.Learn why we recommend switching.Watch this videoto learn how to activate OCBC OneToken via SMS OTP and your card PIN."
+            ]
+        },
+        {
+            "tag": "transfer srs account",
+            "patterns": [
+                "Can I transfer my SRS Account from other banks to OCBC?"
+            ],
+            "responses": [
+                "Yes, you can. Visit any of our branches to complete and sign these forms:Account Transfer formSRS Account Application formDeclaration formThe branch will submit these documents for the processing of the transfer."
+            ]
+        },
+        {
+            "tag": "singpass passcode, login",
+            "patterns": [
+                "Can I use my Singpass passcode to login, without the Singpass Mobile app?"
+            ],
+            "responses": [
+                "No. You will need to use your Singpass Mobile app to login."
+            ]
+        },
+        {
+            "tag": "giro, locked funds",
+            "patterns": [
+                "Can I use my locked funds to make GIRO, scheduled or recurring payments?"
+            ],
+            "responses": [
+                "No. When your funds are locked, you cannot use them for:New or existing payment arrangements (e.g. GIRO, standing instructions or future-dated transfers)Transfers to another OCBC accountTransfers to another bank's account (e.g. local and overseas transfers)Bill or credit card paymentsFixed deposit placements or investmentsInsurance purchases or paymentsLoan or tax repaymentsATM withdrawals or transfersYou may not access your locked funds until you release them. Do keep enough available balance to avoid late fees and charges.What happens if charges to my account exceed my available balance (i.e. funds that are not locked)?Please ensure that you keep enough available balance in your account for all your expenses and payment arrangements. If a scheduled payment cannot be made due to insufficient funds, you may incur late fees and charges. For such fees and charges, please refer to your account's Terms and Conditions."
+            ]
+        },
+        {
+            "tag": "qr cash withdrawal, foreign currency account",
+            "patterns": [
+                "Can I use the QR Cash Withdrawal service to withdraw from my Foreign Currency Account?"
+            ],
+            "responses": [
+                "Foreign currency account is not an eligible bank account for this service."
+            ]
+        },
+        {
+            "tag": "qr cash withdrawal, cda, child development",
+            "patterns": [
+                "Can I use the QR Cash Withdrawal service to withdraw from my child's Child Development Account (CDA)?"
+            ],
+            "responses": [
+                "No, CDA is not an eligible bank account for cash withdrawals, including the\u00a0QR\u00a0Cash Withdrawal service."
+            ]
+        },
+        {
+            "tag": "money, 360 account",
+            "patterns": [
+                "Can I use the money in my 360 Account?"
+            ],
+            "responses": [
+                "Yes you can. There is no lock-in period for this account. You can withdraw money with a debit card and/or access your money through OCBC Online Banking."
+            ]
+        },
+        {
+            "tag": "atm, withdraw overseas",
+            "patterns": [
+                "Can I use the new ATM card to withdraw cash overseas?"
+            ],
+            "responses": [
+                "Yes. You can activate this service instantly via OCBC Online Banking (Internet or Mobile), SMS Banking, and Service Kiosks (at select branches). Please visit theOverseas ATM cash withdrawal FAQsfor instructions (under Activation/ deactivation of cards for overseas ATM withdrawal). If you have already activated this service, there will be no interruption to you for the already activated duration of your old card."
+            ]
+        },
+        {
+            "tag": "qr cash withdrawal, atm",
+            "patterns": [
+                "Can I withdraw coins with the QR Cash Withdrawal service at the OCBC New ATM?"
+            ],
+            "responses": [
+                "The QR cash withdrawal service is only applicable to notes withdrawal."
+            ]
+        },
+        {
+            "tag": "corporate cards",
+            "patterns": [
+                "Can customers use their corporate cards to suspend the operation of their personal OCBC bank accounts and OCBC cards (including the operation of these accounts and cards through OCBC Digital)?"
+            ],
+            "responses": [
+                "No - customers will need to use their personal ATM, debit or credit card to use this feature at the ATM/ ATM+."
+            ]
+        },
+        {
+            "tag": "partial prepayment",
+            "patterns": [
+                "Cancel partial prepayment instruction"
+            ],
+            "responses": [
+                "We will need to receive your notice at least 1 week before the proposed deduction date. Please include:Date of letter by the Bank to confirm your partial repayment instructionLoan account number and mortgage property detailsInstructions to cancel the repayment (indicate the amount)Sign the letter and submit it at any OCBC Bank branchormail it to:Loan Operations (Secured Loan)Bras Basah Post OfficeLocked Bag Service No. 8Singapore 911886"
+            ]
+        },
+        {
+            "tag": "cancel fire insurance",
+            "patterns": [
+                "Cancel your fire insurance policy"
+            ],
+            "responses": [
+                "The fire insurance will be cancelled automatically upon full redemption of the housing loan if:An early full redemption is performed, and a lawyer was engaged to complete the redemption and discharging of the title deed or;The fire insurance was arranged by the Bank (e.g. Great Eastern General)"
+            ]
+        },
+ 
+
+        {
+            "tag": "Change online banking access code",
+            "patterns": [
+                "Change Online Banking Access Code or PIN"
+            ],
+            "responses": [
+                "Follow these steps below.Change Online Banking Access CodeYou can change your Online Banking Access code via OCBC Online Banking or OCBC Digital app and it will take effect immediately.OCBC Digital app:Launch the OCBC Digital app.Tap on the menu bar on the top left of the screen.Tap on \"Profile & Settings\"Select \"Online Banking settings\".Tap on  Change Access Code  .Enter your preferred access code.Tap on  Submit   to proceed.Enter One-Time Password (OTP)* and tap  Submit   to complete the transaction.OCBC Online Banking:Login to online banking (ocbc.com/login).Click  Customer Service   in the top navigation bar.Select  Change Access Code  .Enter 'Preferred access code'.Click  Submit   to proceed.Enter One-Time Password (OTP)* and tap  Submit   to complete the transaction.Change Online Banking PINLogin to online banking (ocbc.com/login).Click  Customer Service   in the top navigation bar.Select  Change PIN  .Enter your current and new PIN - 6 digit PIN.Click  Submit   to proceed.Enter One-Time Password (OTP)* and tap  Submit   to complete the transaction.If you have activated OCBC OneToken, you will not be required to enter OTPs for OCBC Digital app as authentications will take place seamlessly in the background. For OCBC Online Banking, you will need to click \"Accept\" on One Token push notification sent to your mobile device to authenticate your transaction. Please visitocbc.com/onetokenfor more information."
+            ]
+        },
+
+        {
+            "tag": "check balance",
+            "patterns": [
+                "How can I check my account balance?",
+                "Where can I find my current balance?",
+                "What's the quickest way to see my account balance?"
+            ],
+            "responses": [
+                "You can check your account balance through OCBC Internet Banking, OCBC Mobile Banking app, ATMs, or by calling our phone banking services at 1800 363 3333."
+            ]
+        },
+        {
+            "tag": "transfer funds",
+            "patterns": [
+                "How do I transfer funds to another account?",
+                "Can you explain how to make a fund transfer?",
+                "What are the steps for transferring money to someone else?"
+            ],
+            "responses": [
+                "To transfer funds to another account, log in to OCBC Internet Banking or OCBC Mobile Banking app. Navigate to the 'Transfer Funds' section, select the account you want to transfer from, enter the recipient's account details, specify the amount, and confirm the transfer."
+            ]
+        },
+        {
+            "tag": "reset password",
+            "patterns": [
+                "I forgot my password. How can I reset it?",
+                "What should I do if I can't remember my password?",
+                "Is there a way to reset my online banking password?"
+            ],
+            "responses": [
+                "To reset your password, visit the OCBC Online Banking login page and click on the 'Forgot Password' link. Follow the instructions to verify your identity and create a new password."
+            ]
+        },
+        {
+            "tag": "open account",
+            "patterns": [
+                "How do I open a new bank account?",
+                "What documents do I need to open an account?",
+                "Can I open an account online?"
+            ],
+            "responses": [
+                "You can open a new bank account either online through OCBC's website or by visiting your nearest OCBC branch. Make sure to bring along your identification documents such as NRIC, passport, proof of address, and any other required documents as per regulatory requirements."
+            ]
+        },
+        {
+            "tag": "transaction history",
+            "patterns": [
+                "How can I view my transaction history?",
+                "Where do I find my recent transactions?",
+                "Is there a way to see my past transactions?"
+            ],
+            "responses": [
+                "You can view your transaction history by logging in to OCBC Internet Banking or OCBC Mobile Banking app. Navigate to the 'Transaction History' section to see your recent transactions."
+            ]
+        },
+        {
+            "tag": "bill payment",
+            "patterns": [
+                "How do I pay my bills online?",
+                "Can I set up automatic bill payments?",
+                "What are the steps for bill payment through mobile banking?"
+            ],
+            "responses": [
+                "To pay your bills online, log in to OCBC Internet Banking or OCBC Mobile Banking app. Navigate to the 'Bill Payment' section, add your biller, enter the payment details, and confirm the payment."
+            ]
+        },
+        {
+            "tag": "credit card application",
+            "patterns": [
+                "How do I apply for an OCBC credit card?",
+                "Where can I find the credit card application form?",
+                "Is there an online application process for credit cards?"
+            ],
+            "responses": [
+                "You can apply for an OCBC credit card online through our website or visit your nearest OCBC branch to fill out the application form. Make sure to provide all necessary documents for a smooth application process."
+            ]
+        },
+        {
+            "tag": "interest rates",
+            "patterns": [
+                "What are the current interest rates for savings accounts?",
+                "Can you tell me about the interest rates on fixed deposits?",
+                "Where can I find information about loan interest rates?"
+            ],
+            "responses": [
+                "For information on current interest rates for savings accounts, fixed deposits, or loans, please visit our website or contact our customer service hotline at 1800 363 3333."
+            ]
+        },
+        {
+            "tag": "loan application",
+            "patterns": [
+                "How do I apply for a personal loan?",
+                "What are the requirements for a housing loan?",
+                "Is there an online application process for loans?"
+            ],
+            "responses": [
+                "You can apply for a loan online through our website or visit your nearest OCBC branch to fill out the application form. Make sure to provide all necessary documents for a smooth application process."
+            ]
+        },
+        {
+            "tag": "account closure",
+            "patterns": [
+                "How do I close my bank account?",
+                "What is the process for account closure?",
+                "Can I close my account online?"
+            ],
+            "responses": [
+                "To close your bank account, visit your nearest OCBC branch and speak to one of our customer service representatives. They will guide you through the account closure process and assist with any necessary paperwork."
+            ]
+        },
+        {
+            "tag": "foreign exchange rates",
+            "patterns": [
+                "Where can I find information about foreign exchange rates?",
+                "How do I check the current exchange rates?",
+                "Is there a way to view currency exchange rates online?"
+            ],
+            "responses": [
+                "You can check the current foreign exchange rates on our website or through our mobile banking app. Alternatively, you can contact our customer service hotline for assistance."
+            ]
+        },
+        {
+            "tag": "overdraft facility",
+            "patterns": [
+                "What is an overdraft facility?",
+                "How do I apply for an overdraft?",
+                "Can I increase my overdraft limit?"
+            ],
+            "responses": [
+                "An overdraft facility allows you to withdraw more money than you have in your account, up to a certain limit. To apply for an overdraft, please visit your nearest OCBC branch or contact our customer service hotline for assistance."
+            ]
+        },
+        {
+            "tag": "investment options",
+            "patterns": [
+                "What investment options does OCBC offer?",
+                "Can you tell me about the different investment products?",
+                "Where can I get information about investing with OCBC?"
+            ],
+            "responses": [
+                "OCBC offers a range of investment options including stocks, bonds, mutual funds, and more. You can find detailed information about our investment products on our website or by contacting our investment advisors."
+            ]
+        },
+        {
+            "tag": "lost card",
+            "patterns": [
+                "I lost my debit/credit card. What should I do?",
+                "What is the procedure for reporting a lost card?",
+                "Can I temporarily block my lost card?"
+            ],
+            "responses": [
+                "If you've lost your debit or credit card, please report it immediately by contacting our customer service hotline at 1800 363 3333. You can also temporarily block your card through OCBC Mobile Banking app to prevent unauthorized transactions."
+            ]
+        },
+        {
+            "tag": "branch locations",
+            "patterns": [
+                "Where is the nearest OCBC branch?",
+                "Can you provide me with the addresses of OCBC branches?",
+                "How do I find branch locations?"
+            ],
+            "responses": [
+                "You can find the nearest OCBC branch by visiting our website and using the branch locator tool. Alternatively, you can contact our customer service hotline for assistance."
+            ]
+        },
+        {
+            "tag": "customer service hours",
+            "patterns": [
+                "What are the customer service hours for OCBC?",
+                "When is OCBC customer service available?",
+                "Is customer service available 24/7?"
+            ],
+            "responses": [
+                "Our customer service hotline is available 24/7 for general inquiries and assistance. For branch-specific services, please check the operating hours of the respective branches."
+            ]
+        },
+        {
+            "tag": "credit card rewards",
+            "patterns": [
+                "How do I redeem credit card rewards?",
+                "Can you explain the rewards program for OCBC credit cards?",
+                "What are the benefits of using OCBC credit cards?"
+            ],
+            "responses": [
+                "You can redeem credit card rewards through OCBC Internet Banking or Mobile Banking app. Our credit card rewards program offers a variety of benefits including cashback, air miles, dining discounts, and more. Visit our website for detailed information on credit card rewards."
+            ]
+        },
+        {
+            "tag": "fraudulent activity",
+            "patterns": [
+                "I suspect fraudulent activity on my account. What should I do?",
+                "How do I report suspicious transactions?",
+                "Is there a way to protect my account from fraud?"
+            ],
+            "responses": [
+                "If you suspect fraudulent activity on your account, please report it immediately by contacting our customer service hotline at 1800 363 3333. We take the security of your account very seriously and will take appropriate measures to safeguard your funds."
+            ]
+        },
+        {
+            "tag": "online banking security",
+            "patterns": [
+                "How secure is OCBC online banking?",
+                "What measures are in place to protect my online banking account?",
+                "Can I enable additional security features for my online banking?"
+            ],
+            "responses": [
+                "OCBC takes online banking security very seriously and employs multiple layers of security measures to protect your account. You can enable additional security features such as two-factor authentication and transaction alerts for added protection."
+            ]
+        },
+        {
+            "tag": "mobile banking features",
+            "patterns": [
+                "What features are available on OCBC Mobile Banking app?",
+                "Can I perform all banking transactions using the mobile app?",
+                "Is mobile banking convenient and easy to use?"
+            ],
+            "responses": [
+                "OCBC Mobile Banking app offers a wide range of features including account balance check, fund transfers, bill payments, mobile wallet integration, and more. It provides a convenient and user-friendly banking experience on the go."
+            ]
+        },
+        {
+            "tag": "loan repayment",
+            "patterns": [
+                "How do I make loan repayments?",
+                "Can I set up automatic loan repayments?",
+                "Where can I find information about my loan repayment schedule?"
+            ],
+            "responses": [
+                "You can make loan repayments through OCBC Internet Banking or Mobile Banking app by navigating to the loan repayment section. Automatic loan repayments can also be set up for your convenience. For details about your loan repayment schedule, please check your loan statement or contact our customer service."
+            ]
+        },
+        {
+            "tag": "debit card activation",
+            "patterns": [
+                "How do I activate my new debit card?",
+                "Can I activate my debit card online?",
+                "What is the process for activating a new debit card?"
+            ],
+            "responses": [
+                "You can activate your new debit card through OCBC Internet Banking, Mobile Banking app, or by calling our customer service hotline. Follow the instructions provided to complete the activation process securely."
+            ]
+        },
+        {
+            "tag": "foreign currency exchange",
+            "patterns": [
+                "How can I exchange foreign currency?",
+                "Where can I find the best exchange rates for foreign currency?",
+                "Is there a fee for currency exchange?"
+            ],
+            "responses": [
+                "You can exchange foreign currency at any OCBC branch or through our online foreign exchange platform. We offer competitive exchange rates and transparent fee structures for currency exchange services. For current rates and fees, please visit our website."
+            ]
+        },
+        {
+            "tag": "credit score inquiry",
+            "patterns": [
+                "How can I check my credit score?",
+                "Where do I find information about my credit history?",
+                "Is there a way to monitor my credit score regularly?"
+            ],
+            "responses": [
+                "You can check your credit score through credit reporting agencies or financial institutions that provide credit score monitoring services. Keep track of your credit history regularly to ensure financial health and eligibility for various financial products."
+            ]
+        },
+        {
+            "tag": "interest calculation",
+            "patterns": [
+                "How is interest calculated on my savings account?",
+                "Can you explain the interest calculation method?",
+                "Where can I find information about interest rates and calculations?"
+            ],
+            "responses": [
+                "Interest on your savings account is typically calculated based on the daily balance and credited to your account periodically. You can find detailed information about interest rates and calculation methods on our website or by contacting our customer service."
+            ]
+        },
+        {
+            "tag": "account statement",
+            "patterns": [
+                "How do I obtain my account statement?",
+                "Where can I find my monthly account statement?",
+                "Is there a way to receive account statements electronically?"
+            ],
+            "responses": [
+                "You can obtain your account statement through OCBC Internet Banking or Mobile Banking app. Simply navigate to the account statement section and choose the desired period. You can also opt to receive electronic account statements via email for added convenience."
+            ]
+        },
+        {
+            "tag": "credit limit increase",
+            "patterns": [
+                "How do I request a credit limit increase?",
+                "Can I increase my credit card limit online?",
+                "What are the requirements for a credit limit increase?"
+            ],
+            "responses": [
+                "You can request a credit limit increase for your credit card through OCBC Internet Banking or Mobile Banking app. Simply navigate to the credit limit increase section and follow the instructions. The approval of the increase depends on various factors including your credit history and income."
+            ]
+        },
+        {
+            "tag": "rewards redemption",
+            "patterns": [
+                "How do I redeem rewards points?",
+                "Where can I find information about rewards redemption?",
+                "Is there a limit to the number of rewards points I can redeem?"
+            ],
+            "responses": [
+                "You can redeem rewards points earned on your credit card through OCBC Internet Banking or Mobile Banking app. Navigate to the rewards redemption section to view available redemption options and follow the instructions to redeem your points. There may be a minimum redemption threshold and certain terms and conditions."
+            ]
+        },
+        {
+            "tag": "budgeting tools",
+            "patterns": [
+                "Does OCBC offer budgeting tools?",
+                "Where can I find budgeting resources?",
+                "Is there a way to track my expenses and manage my budget?"
+            ],
+            "responses": [
+                "OCBC provides budgeting tools and resources to help you manage your finances effectively. You can access budgeting features through OCBC Mobile Banking app, including expense tracking, budget setting, and financial goal planning. Additionally, you can find budgeting resources and tips on our website."
+            ]
+        },
+        {
+            "tag": "account linking",
+            "patterns": [
+                "Can I link my accounts from different banks?",
+                "Is there a way to consolidate accounts from multiple banks?",
+                "How do I link external accounts to my OCBC account?"
+            ],
+            "responses": [
+                "OCBC offers account linking services to help you manage accounts from different banks conveniently. You can link external accounts to your OCBC account through OCBC Internet Banking or Mobile Banking app. Follow the instructions to add and manage linked accounts for a comprehensive financial overview."
+            ]
+        },
+        {
+            "tag": "travel insurance",
+            "patterns": [
+                "Does OCBC offer travel insurance?",
+                "How do I purchase travel insurance?",
+                "What are the coverage options for travel insurance?"
+            ],
+            "responses": [
+                "OCBC offers travel insurance plans with comprehensive coverage options to suit your travel needs. You can purchase travel insurance through OCBC Internet Banking, Mobile Banking app, or by visiting your nearest OCBC branch. Explore our range of travel insurance plans and choose the one that best fits your requirements."
+            ]
+        },
+        {
+            "tag": "investment advice",
+            "patterns": [
+                "Can I get investment advice from OCBC?",
+                "Where can I find investment advisors?",
+                "Is there a way to receive personalized investment recommendations?"
+            ],
+            "responses": [
+                "OCBC provides personalized investment advice and recommendations through our team of experienced investment advisors. You can schedule a consultation with an investment advisor at your nearest OCBC branch or contact our investment hotline for expert guidance on investment opportunities and strategies."
+            ]
+        },
+        {
+            "tag": "account overdraft",
+            "patterns": [
+                "What is an account overdraft?",
+                "How does an overdraft work?",
+                "Can I apply for an overdraft facility on my account?"
+            ],
+            "responses": [
+                "An account overdraft allows you to withdraw more money than you have available in your account, up to a predetermined limit. It provides flexibility in managing your cash flow and short-term financial needs. You can apply for an overdraft facility through OCBC Internet Banking, Mobile Banking app, or by visiting your nearest OCBC branch."
+            ]
+        },
+        {
+            "tag": "charitable donations",
+            "patterns": [
+                "Can I make charitable donations through OCBC?",
+                "How do I donate to charity using my bank account?",
+                "What charitable organizations does OCBC support?"
+            ],
+            "responses": [
+                "OCBC supports charitable donations through various initiatives and partnerships with charitable organizations. You can make donations to supported charities through OCBC Internet Banking, Mobile Banking app, or by visiting your nearest OCBC branch. Your contributions make a difference in the community and help those in need."
+            ]
+        },
+        {
+            "tag": "student accounts",
+            "patterns": [
+                "Do you offer accounts for students?",
+                "How can I open a student bank account?",
+                "What are the benefits of a student account?"
+            ],
+            "responses": [
+                "Yes, we offer specialized accounts for students. To open a student bank account, visit your nearest OCBC branch with your student identification and other necessary documents. Student accounts often come with benefits such as no minimum balance requirement and discounted fees."
+            ]
+        },
+        {
+            "tag": "business accounts",
+            "patterns": [
+                "How do I open a business account?",
+                "What documents do I need to open a business account?",
+                "Can I open a business account online?"
+            ],
+            "responses": [
+                "To open a business account, visit your nearest OCBC branch with the required documents such as business registration documents, identification of authorized signatories, and proof of address. Alternatively, you may be able to open a business account online, depending on your business type and requirements."
+            ]
+        },
+        {
+            "tag": "mortgage application",
+            "patterns": [
+                "How do I apply for a mortgage?",
+                "What are the steps to get a home loan?",
+                "Can I apply for a mortgage online?"
+            ],
+            "responses": [
+                "To apply for a mortgage, you can visit your nearest OCBC branch or apply online through our website. Our mortgage specialists will guide you through the application process, assess your eligibility, and help you choose the right mortgage product for your needs."
+            ]
+        },
+        {
+            "tag": "loan refinancing",
+            "patterns": [
+                "How does loan refinancing work?",
+                "Can I refinance my existing loans?",
+                "What are the benefits of loan refinancing?"
+            ],
+            "responses": [
+                "Loan refinancing involves replacing an existing loan with a new loan that has better terms and conditions. You can refinance various types of loans including home loans, personal loans, and car loans to lower your interest rate, reduce your monthly payments, or consolidate debt. Contact our loan specialists to explore refinancing options tailored to your financial goals."
+            ]
+        },
+        {
+            "tag": "wealth management services",
+            "patterns": [
+                "What wealth management services does OCBC offer?",
+                "How can I access wealth management solutions?",
+                "Is there a minimum investment requirement for wealth management services?"
+            ],
+            "responses": [
+                "OCBC offers comprehensive wealth management services including investment advisory, portfolio management, estate planning, and retirement planning. You can access wealth management solutions through our dedicated team of wealth managers who will work with you to create a customized wealth management plan based on your financial objectives and risk tolerance."
+            ]
+        },
+        {
+            "tag": "online security tips",
+            "patterns": [
+                "How can I protect my online banking account?",
+                "What are some online security best practices?",
+                "Is there a way to safeguard my personal information online?"
+            ],
+            "responses": [
+                "To protect your online banking account, ensure you use strong, unique passwords, enable two-factor authentication, and avoid sharing sensitive information online. Be cautious of phishing emails and fraudulent websites. OCBC regularly updates its security measures to safeguard your personal information and transactions. Visit our website for more online security tips."
+            ]
+        },
+        {
+            "tag": "emergency assistance",
+            "patterns": [
+                "What should I do in case of a lost or stolen card?",
+                "How do I report fraudulent transactions?",
+                "Is there a hotline for emergency assistance?"
+            ],
+            "responses": [
+                "In case of a lost or stolen card, report it immediately by contacting our customer service hotline at 1800 363 3333. For fraudulent transactions, notify us as soon as possible to initiate an investigation and take necessary action. Our emergency assistance hotline is available 24/7 to address any urgent issues and provide support."
+            ]
+        },
+        {
+            "tag": "financial planning services",
+            "patterns": [
+                "Does OCBC offer financial planning services?",
+                "How can I get help with financial planning?",
+                "Is there a fee for financial planning consultations?"
+            ],
+            "responses": [
+                "Yes, OCBC offers financial planning services to help you achieve your financial goals. Our financial planners can assess your current financial situation, identify your objectives, and develop a personalized financial plan tailored to your needs. Schedule a consultation with our financial planning team to get started on your financial journey."
+            ]
+        },
+        {
+            "tag": "investment risk assessment",
+            "patterns": [
+                "How do I assess my risk tolerance for investments?",
+                "What factors should I consider when evaluating investment risks?",
+                "Can I get help with risk assessment for investments?"
+            ],
+            "responses": [
+                "Assessing your risk tolerance for investments involves considering factors such as your investment objectives, time horizon, and tolerance for market fluctuations. OCBC offers investment risk assessment tools and consultations with investment advisors to help you determine an appropriate investment strategy based on your risk profile and financial goals."
+            ]
+        },
+        {
+            "tag": "financial education resources",
+            "patterns": [
+                "Does OCBC provide financial education resources?",
+                "Where can I find financial literacy resources?",
+                "Is there a way to improve my financial knowledge?"
+            ],
+            "responses": [
+                "OCBC offers a range of financial education resources including articles, guides, webinars, and workshops to help you improve your financial literacy. Visit our website or attend our financial education events to learn about budgeting, saving, investing, and more. We're committed to empowering you with the knowledge and skills to make informed financial decisions."
+            ]
+        }
+
+    ]
+}
